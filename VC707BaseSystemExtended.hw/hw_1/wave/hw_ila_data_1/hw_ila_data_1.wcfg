@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/berkaythefair/Downloads/Reza/Burak/VC707/VC707/VC707BaseSystemExtended.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wdb" id="1">
+         <top_modules>
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="126511000fs"></ZoomStartTime>
+      <ZoomEndTime time="131611001fs"></ZoomEndTime>
+      <Cursor1Time time="127421000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="106"></NameColumnWidth>
+      <ValueColumnWidth column_width="150"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="4" />
+   <wave_markers>
+      <marker time="7865000" label="" />
+      <marker time="2299000" label="" />
+      <marker time="95071000" label="" />
+   </wave_markers>
+   <wvobject fp_name="design_1_i/pwm_generator_0_pwm_left" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">design_1_i/pwm_generator_0_pwm_left[1:0]</obj_property>
+      <obj_property name="ObjectShortName">pwm_generator_0_pwm_left[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="label">left_0</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="design_1_i/pwm_generator_0_pwm_right_n" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">design_1_i/pwm_generator_0_pwm_right_n[1:0]</obj_property>
+      <obj_property name="ObjectShortName">pwm_generator_0_pwm_right_n[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="design_1_i/pwm_generator_0_pwm_left_n" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">design_1_i/pwm_generator_0_pwm_left_n[1:0]</obj_property>
+      <obj_property name="ObjectShortName">pwm_generator_0_pwm_left_n[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="label">left_1</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="design_1_i/pwm_generator_0_pwm_right" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">design_1_i/pwm_generator_0_pwm_right[1:0]</obj_property>
+      <obj_property name="ObjectShortName">pwm_generator_0_pwm_right[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="label">right_0</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+</wave_config>

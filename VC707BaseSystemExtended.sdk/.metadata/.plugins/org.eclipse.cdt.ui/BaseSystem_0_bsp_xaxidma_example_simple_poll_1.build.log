@@ -1,0 +1,33 @@
+11:00:33 **** Build of configuration Debug for project BaseSystem_0_bsp_xaxidma_example_simple_poll_1 ****
+make all 
+'Building file: ../src/xaxidma_example_simple_poll.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xaxidma_example_simple_poll.o" -I../../BaseSystem_0_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -Wl,--no-relax -MMD -MP -MF"src/xaxidma_example_simple_poll.d" -MT"src/xaxidma_example_simple_poll.o" -o "src/xaxidma_example_simple_poll.o" "../src/xaxidma_example_simple_poll.c"
+'Finished building: ../src/xaxidma_example_simple_poll.c'
+' '
+'Building file: ../src/xaxidma_multichan_sg_intr.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xaxidma_multichan_sg_intr.o" -I../../BaseSystem_0_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -Wl,--no-relax -MMD -MP -MF"src/xaxidma_multichan_sg_intr.d" -MT"src/xaxidma_multichan_sg_intr.o" -o "src/xaxidma_multichan_sg_intr.o" "../src/xaxidma_multichan_sg_intr.c"
+../src/xaxidma_multichan_sg_intr.c: In function 'main':
+../src/xaxidma_multichan_sg_intr.c:133:21: error: 'XPAR_INTC_0_AXIDMA_0_MM2S_INTROUT_VEC_ID' undeclared (first use in this function)
+ #define TX_INTR_ID  XPAR_INTC_0_AXIDMA_0_MM2S_INTROUT_VEC_ID
+                     ^
+../src/xaxidma_multichan_sg_intr.c:335:43: note: in expansion of macro 'TX_INTR_ID'
+  Status = SetupIntrSystem(&Intc, &AxiDma, TX_INTR_ID,
+                                           ^
+../src/xaxidma_multichan_sg_intr.c:133:21: note: each undeclared identifier is reported only once for each function it appears in
+ #define TX_INTR_ID  XPAR_INTC_0_AXIDMA_0_MM2S_INTROUT_VEC_ID
+                     ^
+../src/xaxidma_multichan_sg_intr.c:335:43: note: in expansion of macro 'TX_INTR_ID'
+  Status = SetupIntrSystem(&Intc, &AxiDma, TX_INTR_ID,
+                                           ^
+../src/xaxidma_multichan_sg_intr.c:132:21: error: 'XPAR_INTC_0_AXIDMA_0_S2MM_INTROUT_VEC_ID' undeclared (first use in this function)
+ #define RX_INTR_ID  XPAR_INTC_0_AXIDMA_0_S2MM_INTROUT_VEC_ID
+                     ^
+../src/xaxidma_multichan_sg_intr.c:336:6: note: in expansion of macro 'RX_INTR_ID'
+      RX_INTR_ID, 1);
+      ^
+make: *** [src/xaxidma_multichan_sg_intr.o] Hata 1
+
+11:00:35 Build Finished (took 1s.435ms)
+

@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Wed Jul 10 10:53:05 2019
+# Process ID: 6068
+# Current directory: C:/Users/berkaythefair/Downloads/BurakK/Burak/VC707/VC707
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4016 C:\Users\berkaythefair\Downloads\BurakK\Burak\VC707\VC707\VC707BaseSystemExtended.xpr
+# Log file: C:/Users/berkaythefair/Downloads/BurakK/Burak/VC707/VC707/vivado.log
+# Journal file: C:/Users/berkaythefair/Downloads/BurakK/Burak/VC707/VC707\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/berkaythefair/Downloads/BurakK/Burak/VC707/VC707/VC707BaseSystemExtended.xpr
+file copy -force C:/Users/berkaythefair/Downloads/BurakK/Burak/VC707/VC707/VC707BaseSystemExtended.runs/impl_1/design_1_wrapper.sysdef C:/Users/berkaythefair/Downloads/BurakK/Burak/VC707/VC707/VC707BaseSystemExtended.sdk/design_1_wrapper.hdf
+
+launch_sdk -workspace C:/Users/berkaythefair/Downloads/BurakK/Burak/VC707/VC707/VC707BaseSystemExtended.sdk -hwspec C:/Users/berkaythefair/Downloads/BurakK/Burak/VC707/VC707/VC707BaseSystemExtended.sdk/design_1_wrapper.hdf
+open_bd_design {C:/Users/berkaythefair/Downloads/BurakK/Burak/VC707/VC707/VC707BaseSystemExtended.srcs/sources_1/bd/design_1/design_1.bd}

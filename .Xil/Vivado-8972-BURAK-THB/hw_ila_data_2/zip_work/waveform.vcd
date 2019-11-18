@@ -1,0 +1,24 @@
+$date
+        2019-Jun-17 13:07:37
+$end
+$version
+        Vivado v2016.4 (64-bit)
+$end
+$timescale
+        1ps
+$end
+$scope module dut $end
+$var reg 1 " design_1_i/axi_dma_0_M_AXIS_MM2S_TREADY $end
+$var reg 32 # design_1_i/axi_dma_0_M_AXIS_MM2S_TDATA [31:0] $end
+$var reg 4 C design_1_i/probe2 [3:0] $end
+$var reg 1 G design_1_i/axi_dma_0_M_AXIS_MM2S_TVALID $end
+$var reg 1 H design_1_i/axi_dma_0_M_AXIS_MM2S_TLAST $end
+$var reg 1 I design_1_i/probe5 $end
+$var reg 4 J design_1_i/probe6 [3:0] $end
+$var reg 1 N design_1_i/probe7 $end
+$var reg 1 O design_1_i/probe8 $end
+$var reg 1 P _TRIGGER $end
+$var reg 1 Q _WINDOW $end
+$var reg 1 R _GAP $end
+$upscope $end
+$enddefinitions $end

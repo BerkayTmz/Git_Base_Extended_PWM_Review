@@ -1,0 +1,5 @@
+Averaging kullanmazsak:
+-  2053ns -> 487kHz
+
+Averaging kullanırsak (16):
+-  34511ns -> 29kHz

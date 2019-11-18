@@ -1,0 +1,91 @@
+
+*** Running vivado
+    with args -log design_1_auto_us_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_auto_us_0.tcl
+
+
+****** Vivado v2016.4 (64-bit)
+  **** SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+  **** IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source design_1_auto_us_0.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:18 ; elapsed = 00:00:22 . Memory (MB): peak = 322.945 ; gain = 113.496
+INFO: [Synth 8-638] synthesizing module 'design_1_auto_us_0' [c:/Users/Burak/Desktop/Projects/VC707BaseSystemExtended/VC707BaseSystemExtended.srcs/sources_1/bd/design_1/ip/design_1_auto_us_0/synth/design_1_auto_us_0.v:58]
+INFO: [Synth 8-638] synthesizing module 'axi_dwidth_converter_v2_1_11_top' [c:/Users/Burak/Desktop/Projects/VC707BaseSystemExtended/VC707BaseSystemExtended.srcs/sources_1/bd/design_1/ipshared/a4c8/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:14452]
+INFO: [Synth 8-638] synthesizing module 'axi_dwidth_converter_v2_1_11_axi_upsizer' [c:/Users/Burak/Desktop/Projects/VC707BaseSystemExtended/VC707BaseSystemExtended.srcs/sources_1/bd/design_1/ipshared/a4c8/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:7037]
+INFO: [Synth 8-638] synthesizing module 'axi_dwidth_converter_v2_1_11_w_upsizer' [c:/Users/Burak/Desktop/Projects/VC707BaseSystemExtended/VC707BaseSystemExtended.srcs/sources_1/bd/design_1/ipshared/a4c8/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:5562]
+INFO: [Synth 8-256] done synthesizing module 'axi_dwidth_converter_v2_1_11_w_upsizer' (1#1) [c:/Users/Burak/Desktop/Projects/VC707BaseSystemExtended/VC707BaseSystemExtended.srcs/sources_1/bd/design_1/ipshared/a4c8/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:5562]
+INFO: [Synth 8-638] synthesizing module 'axi_dwidth_converter_v2_1_11_a_upsizer' [c:/Users/Burak/Desktop/Projects/VC707BaseSystemExtended/VC707BaseSystemExtended.srcs/sources_1/bd/design_1/ipshared/a4c8/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:3603]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_command_fifo' [c:/Users/Burak/Desktop/Projects/VC707BaseSystemExtended/VC707BaseSystemExtended.srcs/sources_1/bd/design_1/ipshared/7ee0/hdl/generic_baseblocks_v2_1_vl_rfs.v:655]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_command_fifo' (2#1) [c:/Users/Burak/Desktop/Projects/VC707BaseSystemExtended/VC707BaseSystemExtended.srcs/sources_1/bd/design_1/ipshared/7ee0/hdl/generic_baseblocks_v2_1_vl_rfs.v:655]
+INFO: [Synth 8-256] done synthesizing module 'axi_dwidth_converter_v2_1_11_a_upsizer' (3#1) [c:/Users/Burak/Desktop/Projects/VC707BaseSystemExtended/VC707BaseSystemExtended.srcs/sources_1/bd/design_1/ipshared/a4c8/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:3603]
+INFO: [Synth 8-638] synthesizing module 'axi_dwidth_converter_v2_1_11_r_upsizer' [c:/Users/Burak/Desktop/Projects/VC707BaseSystemExtended/VC707BaseSystemExtended.srcs/sources_1/bd/design_1/ipshared/a4c8/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:4652]
+INFO: [Synth 8-256] done synthesizing module 'axi_dwidth_converter_v2_1_11_r_upsizer' (4#1) [c:/Users/Burak/Desktop/Projects/VC707BaseSystemExtended/VC707BaseSystemExtended.srcs/sources_1/bd/design_1/ipshared/a4c8/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:4652]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_11_axi_register_slice' [c:/Users/Burak/Desktop/Projects/VC707BaseSystemExtended/VC707BaseSystemExtended.srcs/sources_1/bd/design_1/ipshared/0b6b/hdl/axi_register_slice_v2_1_vl_rfs.v:791]
+INFO: [Synth 8-638] synthesizing module 'axi_infrastructure_v1_1_0_axi2vector' [c:/Users/Burak/Desktop/Projects/VC707BaseSystemExtended/VC707BaseSystemExtended.srcs/sources_1/bd/design_1/ipshared/7e3a/hdl/axi_infrastructure_v1_1_vl_rfs.v:60]
+INFO: [Synth 8-256] done synthesizing module 'axi_infrastructure_v1_1_0_axi2vector' (5#1) [c:/Users/Burak/Desktop/Projects/VC707BaseSystemExtended/VC707BaseSystemExtended.srcs/sources_1/bd/design_1/ipshared/7e3a/hdl/axi_infrastructure_v1_1_vl_rfs.v:60]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_11_axic_register_slice' [c:/Users/Burak/Desktop/Projects/VC707BaseSystemExtended/VC707BaseSystemExtended.srcs/sources_1/bd/design_1/ipshared/0b6b/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_11_axic_register_slice' (6#1) [c:/Users/Burak/Desktop/Projects/VC707BaseSystemExtended/VC707BaseSystemExtended.srcs/sources_1/bd/design_1/ipshared/0b6b/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_11_axic_register_slice__parameterized0' [c:/Users/Burak/Desktop/Projects/VC707BaseSystemExtended/VC707BaseSystemExtended.srcs/sources_1/bd/design_1/ipshared/0b6b/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_11_axic_register_slice__parameterized0' (6#1) [c:/Users/Burak/Desktop/Projects/VC707BaseSystemExtended/VC707BaseSystemExtended.srcs/sources_1/bd/design_1/ipshared/0b6b/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_11_axic_register_slice__parameterized1' [c:/Users/Burak/Desktop/Projects/VC707BaseSystemExtended/VC707BaseSystemExtended.srcs/sources_1/bd/design_1/ipshared/0b6b/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_11_axic_register_slice__parameterized1' (6#1) [c:/Users/Burak/Desktop/Projects/VC707BaseSystemExtended/VC707BaseSystemExtended.srcs/sources_1/bd/design_1/ipshared/0b6b/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_11_axic_register_slice__parameterized2' [c:/Users/Burak/Desktop/Projects/VC707BaseSystemExtended/VC707BaseSystemExtended.srcs/sources_1/bd/design_1/ipshared/0b6b/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_11_axic_register_slice__parameterized2' (6#1) [c:/Users/Burak/Desktop/Projects/VC707BaseSystemExtended/VC707BaseSystemExtended.srcs/sources_1/bd/design_1/ipshared/0b6b/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-638] synthesizing module 'axi_infrastructure_v1_1_0_vector2axi' [c:/Users/Burak/Desktop/Projects/VC707BaseSystemExtended/VC707BaseSystemExtended.srcs/sources_1/bd/design_1/ipshared/7e3a/hdl/axi_infrastructure_v1_1_vl_rfs.v:474]
+INFO: [Synth 8-256] done synthesizing module 'axi_infrastructure_v1_1_0_vector2axi' (7#1) [c:/Users/Burak/Desktop/Projects/VC707BaseSystemExtended/VC707BaseSystemExtended.srcs/sources_1/bd/design_1/ipshared/7e3a/hdl/axi_infrastructure_v1_1_vl_rfs.v:474]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_11_axi_register_slice' (8#1) [c:/Users/Burak/Desktop/Projects/VC707BaseSystemExtended/VC707BaseSystemExtended.srcs/sources_1/bd/design_1/ipshared/0b6b/hdl/axi_register_slice_v2_1_vl_rfs.v:791]
+INFO: [Synth 8-638] synthesizing module 'axi_dwidth_converter_v2_1_11_a_upsizer__parameterized0' [c:/Users/Burak/Desktop/Projects/VC707BaseSystemExtended/VC707BaseSystemExtended.srcs/sources_1/bd/design_1/ipshared/a4c8/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:3603]
+INFO: [Synth 8-256] done synthesizing module 'axi_dwidth_converter_v2_1_11_a_upsizer__parameterized0' (8#1) [c:/Users/Burak/Desktop/Projects/VC707BaseSystemExtended/VC707BaseSystemExtended.srcs/sources_1/bd/design_1/ipshared/a4c8/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:3603]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_11_axi_register_slice__parameterized0' [c:/Users/Burak/Desktop/Projects/VC707BaseSystemExtended/VC707BaseSystemExtended.srcs/sources_1/bd/design_1/ipshared/0b6b/hdl/axi_register_slice_v2_1_vl_rfs.v:791]
+INFO: [Synth 8-638] synthesizing module 'axi_infrastructure_v1_1_0_axi2vector__parameterized0' [c:/Users/Burak/Desktop/Projects/VC707BaseSystemExtended/VC707BaseSystemExtended.srcs/sources_1/bd/design_1/ipshared/7e3a/hdl/axi_infrastructure_v1_1_vl_rfs.v:60]
+INFO: [Synth 8-256] done synthesizing module 'axi_infrastructure_v1_1_0_axi2vector__parameterized0' (8#1) [c:/Users/Burak/Desktop/Projects/VC707BaseSystemExtended/VC707BaseSystemExtended.srcs/sources_1/bd/design_1/ipshared/7e3a/hdl/axi_infrastructure_v1_1_vl_rfs.v:60]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_11_axic_register_slice__parameterized3' [c:/Users/Burak/Desktop/Projects/VC707BaseSystemExtended/VC707BaseSystemExtended.srcs/sources_1/bd/design_1/ipshared/0b6b/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_11_axic_register_slice__parameterized3' (8#1) [c:/Users/Burak/Desktop/Projects/VC707BaseSystemExtended/VC707BaseSystemExtended.srcs/sources_1/bd/design_1/ipshared/0b6b/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_11_axic_register_slice__parameterized4' [c:/Users/Burak/Desktop/Projects/VC707BaseSystemExtended/VC707BaseSystemExtended.srcs/sources_1/bd/design_1/ipshared/0b6b/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_11_axic_register_slice__parameterized4' (8#1) [c:/Users/Burak/Desktop/Projects/VC707BaseSystemExtended/VC707BaseSystemExtended.srcs/sources_1/bd/design_1/ipshared/0b6b/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_11_axic_register_slice__parameterized5' [c:/Users/Burak/Desktop/Projects/VC707BaseSystemExtended/VC707BaseSystemExtended.srcs/sources_1/bd/design_1/ipshared/0b6b/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_11_axic_register_slice__parameterized5' (8#1) [c:/Users/Burak/Desktop/Projects/VC707BaseSystemExtended/VC707BaseSystemExtended.srcs/sources_1/bd/design_1/ipshared/0b6b/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-638] synthesizing module 'axi_infrastructure_v1_1_0_vector2axi__parameterized0' [c:/Users/Burak/Desktop/Projects/VC707BaseSystemExtended/VC707BaseSystemExtended.srcs/sources_1/bd/design_1/ipshared/7e3a/hdl/axi_infrastructure_v1_1_vl_rfs.v:474]
+INFO: [Synth 8-256] done synthesizing module 'axi_infrastructure_v1_1_0_vector2axi__parameterized0' (8#1) [c:/Users/Burak/Desktop/Projects/VC707BaseSystemExtended/VC707BaseSystemExtended.srcs/sources_1/bd/design_1/ipshared/7e3a/hdl/axi_infrastructure_v1_1_vl_rfs.v:474]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_11_axi_register_slice__parameterized0' (8#1) [c:/Users/Burak/Desktop/Projects/VC707BaseSystemExtended/VC707BaseSystemExtended.srcs/sources_1/bd/design_1/ipshared/0b6b/hdl/axi_register_slice_v2_1_vl_rfs.v:791]
+INFO: [Synth 8-256] done synthesizing module 'axi_dwidth_converter_v2_1_11_axi_upsizer' (9#1) [c:/Users/Burak/Desktop/Projects/VC707BaseSystemExtended/VC707BaseSystemExtended.srcs/sources_1/bd/design_1/ipshared/a4c8/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:7037]
+INFO: [Synth 8-256] done synthesizing module 'axi_dwidth_converter_v2_1_11_top' (10#1) [c:/Users/Burak/Desktop/Projects/VC707BaseSystemExtended/VC707BaseSystemExtended.srcs/sources_1/bd/design_1/ipshared/a4c8/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:14452]
+INFO: [Synth 8-256] done synthesizing module 'design_1_auto_us_0' (11#1) [c:/Users/Burak/Desktop/Projects/VC707BaseSystemExtended/VC707BaseSystemExtended.srcs/sources_1/bd/design_1/ip/design_1_auto_us_0/synth/design_1_auto_us_0.v:58]
+Finished RTL Elaboration : Time (s): cpu = 00:02:26 ; elapsed = 00:02:36 . Memory (MB): peak = 465.477 ; gain = 256.027
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:02:26 ; elapsed = 00:02:37 . Memory (MB): peak = 465.477 ; gain = 256.027
+INFO: [Device 21-403] Loading part xc7vx485tffg1761-2
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.325 . Memory (MB): peak = 843.234 ; gain = 0.953
+Finished Constraint Validation : Time (s): cpu = 00:02:59 ; elapsed = 00:03:11 . Memory (MB): peak = 843.234 ; gain = 633.785
+Finished Loading Part and Timing Information : Time (s): cpu = 00:02:59 ; elapsed = 00:03:11 . Memory (MB): peak = 843.234 ; gain = 633.785
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:02:59 ; elapsed = 00:03:11 . Memory (MB): peak = 843.234 ; gain = 633.785
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:03:03 ; elapsed = 00:03:15 . Memory (MB): peak = 843.234 ; gain = 633.785
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:03:19 ; elapsed = 00:03:32 . Memory (MB): peak = 843.234 ; gain = 633.785
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:03:35 ; elapsed = 00:03:48 . Memory (MB): peak = 843.234 ; gain = 633.785
+Finished Timing Optimization : Time (s): cpu = 00:03:38 ; elapsed = 00:03:52 . Memory (MB): peak = 843.234 ; gain = 633.785
+Finished Technology Mapping : Time (s): cpu = 00:03:42 ; elapsed = 00:03:56 . Memory (MB): peak = 852.211 ; gain = 642.762
+Finished IO Insertion : Time (s): cpu = 00:03:43 ; elapsed = 00:03:57 . Memory (MB): peak = 852.211 ; gain = 642.762
+Finished Renaming Generated Instances : Time (s): cpu = 00:03:43 ; elapsed = 00:03:57 . Memory (MB): peak = 852.211 ; gain = 642.762
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:03:44 ; elapsed = 00:03:58 . Memory (MB): peak = 852.211 ; gain = 642.762
+Finished Renaming Generated Ports : Time (s): cpu = 00:03:44 ; elapsed = 00:03:58 . Memory (MB): peak = 852.211 ; gain = 642.762
+Finished Handling Custom Attributes : Time (s): cpu = 00:03:45 ; elapsed = 00:03:59 . Memory (MB): peak = 852.211 ; gain = 642.762
+Finished Renaming Generated Nets : Time (s): cpu = 00:03:45 ; elapsed = 00:03:59 . Memory (MB): peak = 852.211 ; gain = 642.762
+
+Report Cell Usage: 
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |CARRY4  |    12|
+|2     |LUT1    |     5|
+|3     |LUT2    |   127|
+|4     |LUT3    |   624|
+|5     |LUT4    |   121|
+|6     |LUT5    |   699|
+|7     |LUT6    |   571|
+|8     |MUXF7   |   128|
+|9     |SRLC32E |    86|
+|10    |FDRE    |  2977|
+|11    |FDSE    |     4|
++------+--------+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:03:45 ; elapsed = 00:03:59 . Memory (MB): peak = 852.211 ; gain = 642.762
+synth_design: Time (s): cpu = 00:03:44 ; elapsed = 00:03:55 . Memory (MB): peak = 856.348 ; gain = 623.949

@@ -1,0 +1,46 @@
+Vivado Simulator 2016.4
+Time resolution is 1 fs
+Block Memory Generator module design_1_wrapper.design_1_i.microblaze_0_local_memory.lmb_bram.inst.native_mem_mapped_module.blk_mem_gen_v8_3_5_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+############# Write Clocks PLLE2_ADV Parameters #############
+
+nCK_PER_CLK      =       4
+CLK_PERIOD       =    5000
+CLKIN1_PERIOD    =   5.000
+DIVCLK_DIVIDE    =       1
+CLKFBOUT_MULT    =       5
+VCO_PERIOD       =  1000.0
+CLKOUT0_DIVIDE_F =       2
+CLKOUT1_DIVIDE   =       2
+CLKOUT2_DIVIDE   =      32
+CLKOUT3_DIVIDE   =       8
+CLKOUT0_PERIOD   =    2000
+CLKOUT1_PERIOD   =    2000
+CLKOUT2_PERIOD   =   32000
+CLKOUT3_PERIOD   =    8000
+CLKOUT4_PERIOD   =    4000
+############################################################
+
+############# MMCME2_ADV Parameters #############
+
+MMCM_MULT_F           =           8
+MMCM_VCO_FREQ (MHz)   = 1000.000
+MMCM_VCO_PERIOD       = 1000.000
+#################################################
+
+design_1_wrapper.design_1_i.mig_7series_0.u_design_1_mig_7series_0_0_mig.u_memc_ui_top_axi.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : BYTE_LANES_B0 = f BYTE_LANES_B1 = e DATA_CTL_B0 = f DATA_CTL_B1 = 0
+design_1_wrapper.design_1_i.mig_7series_0.u_design_1_mig_7series_0_0_mig.u_memc_ui_top_axi.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : HIGHEST_LANE =          12 HIGHEST_LANE_B0 =           4 HIGHEST_LANE_B1 =           4
+design_1_wrapper.design_1_i.mig_7series_0.u_design_1_mig_7series_0_0_mig.u_memc_ui_top_axi.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : HIGHEST_BANK =           3
+design_1_wrapper.design_1_i.mig_7series_0.u_design_1_mig_7series_0_0_mig.u_memc_ui_top_axi.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : FREQ_REF_PERIOD         = 2000.00 
+design_1_wrapper.design_1_i.mig_7series_0.u_design_1_mig_7series_0_0_mig.u_memc_ui_top_axi.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : DDR_TCK                 = 2000 
+design_1_wrapper.design_1_i.mig_7series_0.u_design_1_mig_7series_0_0_mig.u_memc_ui_top_axi.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : PO_S2_TAPS_SIZE         = 15.63 
+design_1_wrapper.design_1_i.mig_7series_0.u_design_1_mig_7series_0_0_mig.u_memc_ui_top_axi.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : PO_CIRC_BUF_EARLY       = 1 
+design_1_wrapper.design_1_i.mig_7series_0.u_design_1_mig_7series_0_0_mig.u_memc_ui_top_axi.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : PO_CIRC_BUF_OFFSET      = 234.20 
+design_1_wrapper.design_1_i.mig_7series_0.u_design_1_mig_7series_0_0_mig.u_memc_ui_top_axi.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : PO_CIRC_BUF_META_ZONE   = 200.00 
+design_1_wrapper.design_1_i.mig_7series_0.u_design_1_mig_7series_0_0_mig.u_memc_ui_top_axi.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : PO_STG2_FINE_INTR_DLY   = 1085.60 
+design_1_wrapper.design_1_i.mig_7series_0.u_design_1_mig_7series_0_0_mig.u_memc_ui_top_axi.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : PO_STG2_COARSE_INTR_DLY = 680.20 
+design_1_wrapper.design_1_i.mig_7series_0.u_design_1_mig_7series_0_0_mig.u_memc_ui_top_axi.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : PO_STG2_INTRINSIC_DELAY = 1765.80 
+design_1_wrapper.design_1_i.mig_7series_0.u_design_1_mig_7series_0_0_mig.u_memc_ui_top_axi.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : PO_CIRC_BUF_DELAY       = 60 
+design_1_wrapper.design_1_i.mig_7series_0.u_design_1_mig_7series_0_0_mig.u_memc_ui_top_axi.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : PO_INTRINSIC_DELAY      = 1765.80 
+design_1_wrapper.design_1_i.mig_7series_0.u_design_1_mig_7series_0_0_mig.u_memc_ui_top_axi.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : PO_DELAY                = 2703.30 
+design_1_wrapper.design_1_i.mig_7series_0.u_design_1_mig_7series_0_0_mig.u_memc_ui_top_axi.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : PO_OCLK_DELAY           = 16 
+design_1_wrapper.design_1_i.mig_7seri
